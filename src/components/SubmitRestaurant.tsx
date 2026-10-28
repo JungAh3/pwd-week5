@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import styled from '@emotion/styled';
 import { toast } from 'react-toastify';
-import { submissionAPI } from '../services/api';
+import { submissionAPI } from '../services/api.local';
 import { FaCheckCircle } from 'react-icons/fa';
 import type { CreateSubmissionInput, SubmissionFormValues } from '../types';
 

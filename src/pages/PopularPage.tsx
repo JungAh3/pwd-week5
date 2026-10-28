@@ -1,7 +1,7 @@
 /* src/pages/PopularPage.tsx */
 import { useQuery } from '@tanstack/react-query';
 import PopularRestaurants from '../components/PopularRestaurants';
-import { restaurantAPI } from '../services/api';
+import { restaurantAPI } from '../services/api.local';
 import { ClipLoader } from 'react-spinners';
 
 function PopularPage() {
