@@ -47,6 +47,12 @@ function Header() {
       <h1 style={{ textAlign: 'center', marginBottom: '1rem' }}>
         Ajou Campus Foodmap
       </h1>
+      <NavLink to="/admin" className={isActive('/admin')}>
+        맛집 관리
+      </NavLink>
+      <NavLink to="/submissions" className={isActive('/submissions')}>
+        제보 관리
+      </NavLink>
       <Nav>
         <NavLink to="/" className={isActive('/')}>
           <FaHome /> Home
